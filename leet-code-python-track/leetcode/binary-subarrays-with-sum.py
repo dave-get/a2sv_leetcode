@@ -1,10 +1,5 @@
-class Solution(object):
-    def numSubarraysWithSum(self, nums, goal):
-        """
-        :type nums: List[int]
-        :type goal: int
-        :rtype: int
-        """
+class Solution:
+    def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
         k = goal
         dic = defaultdict(int)
         pref = [0]
